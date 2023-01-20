@@ -42,5 +42,7 @@ Contact the author via email.
 
 <br/>
 <br/>
-<img src="apps/mobile/assets/iphone-simulator.png" />
+<center>
+<img width="400" src="apps/mobile/assets/iphone-simulator.png" />
+</center>
 <br/>
