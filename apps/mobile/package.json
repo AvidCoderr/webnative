@@ -1,0 +1,20 @@
+{
+  "name": "mobile",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-native": "*",
+    "@testing-library/react-native": "*",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "@react-native-masked-view/masked-view": "*",
+    "react-native-safe-area-context": "*",
+    "react-native": "*",
+    "expo": "*",
+    "react-native-svg": "*",
+    "react-native-web": "*"
+  },
+  "scripts": {
+    "postinstall": "rm -r node_modules && cd ../../ && yarn install && npx nx sync-deps mobile && npx nx ensure-symlink mobile"
+  }
+}
